@@ -1,74 +1,73 @@
 # Dr. Brunton's Probability & Statistics Course Materials
 
-This repository contains lecture notes and Python scripts from Dr. Brunton's courses on **Probability Bootcamp** and **Statistics and Data Analysis**. These materials are designed to help learners understand fundamental concepts in probability theory and statistical analysis through both theoretical explanations and practical Python implementations.
+This repository contains my hand-written lecture notes and Python notebooks from Dr. Steve Brunton's YouTube courses **Probability Bootcamp** and **Introduction to Statistics and Data Analysis**. These materials are designed to help learners understand fundamental concepts in probability theory and statistical analysis through both theoretical explanations and practical Python implementations.
 
 ## 📚 Contents
 
-### PDF Lecture Notes
+### Hand-Written Notes
 
-The PDF files are photocopies of my handwritten notes of Dr. Brunton's lectures, covering core topics in probability and statistics:
+The notes are organized episode by episode. Each page links to the original video and includes the episode's short description:
 
-- **PB_Note-Brunton-Probability & Statistics 1.pdf** - Comprehensive handwritten notes from the Probability Bootcamp course
-- **SDA_Note-Brunton-Probability & Statistics 2.pdf** - Comprehensive handwritten notes from the Statistics and Data Analysis course
+| Course | Notes by episode | Full notes (PDF) |
+|:-------|:-----------------|:-----------------|
+| [Probability Bootcamp](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR3sNYvfgiKgcStwuPSts9V) (44 episodes) | [Probability_Bootcamp_Notes.md](Probability_Bootcamp_Notes.md) | [Google Drive](https://drive.google.com/file/d/16eFszC2ff-S5G0cvsu3_dxtKBDFcjOnn/view?usp=sharing) |
+| [Introduction to Statistics and Data Analysis](https://www.youtube.com/playlist?list=PLMrJAkhIeNNT14qn1c5qdL29A1UaHamjx) (35 episodes) | [Statistics_and_Data_Analysis_Notes.md](Statistics_and_Data_Analysis_Notes.md) | [Google Drive](https://drive.google.com/file/d/1ZsknKsvAKQbf8-VmSXXBOJ4IpXpFjyQT/view?usp=sharing) |
 
-Most of the notes are identically copied from the notes shown in the course videos. Some supplementary notes are added to clarify the concepts. In addition, there are some terminology interpretations which you might find stupid. But please have mercy on me because I'm not a native English speaker.
+The page images are stored in [`hand_notes_PB/`](hand_notes_PB) and [`hand_notes_SDA/`](hand_notes_SDA). Most of the notes are identically copied from the notes shown in the course videos. Some supplementary notes are added to clarify the concepts. In addition, there are some terminology interpretations which you might find stupid. But please have mercy on me because I'm not a native English speaker.
 
 ### Python Notebooks (Jupyter)
 
-The Jupyter Notebook (`.ipynb`) files contain Python scripts identical to those used by Dr. Brunton during his lectures. Each notebook corresponds to specific lecture topics:
+The Jupyter Notebook (`.ipynb`) files contain Python scripts identical to those used by Dr. Brunton during his lectures. The number in each file name is the episode number in the corresponding playlist.
 
-#### Probability Topics (Probability Series)
-- **PB5_The Birthday Problem in Probability.ipynb** - Exploration of the classic birthday problem
-- **PB6_Quality Control, Non-destructive Inspection, and the Hypergeometric Distribution.ipynb** - Applications of hypergeometric distribution in quality control
-- **PB7_The Binomial Distribution and the Multinomial Distribution.ipynb** - Understanding binomial and multinomial distributions
-- **PB15_The Normal Distribution- The Limit of Binomial Distribution for Large n.ipynb** - Normal distribution as a limit case
-- **PB16_The Standard Unit Normal and Probability Computation.ipynb** - Standard normal distribution and probability calculations
-- **PB17_The Poisson Distribution- the Rare Event Limit of a Binomial Distribution.ipynb** - Poisson distribution for rare events
+#### Probability Bootcamp (PB)
 
-#### Statistics & Data Analysis Topics (Statistics Series)
-- **SDA2_Population Statistics and Random Sampling.ipynb** - Fundamentals of population statistics and sampling methods
-- **SDA6_Normal Approximation to Sample Mean.ipynb** - Normal approximation techniques for sample means
-- **SDA14_P-hacking.ipynb** - Understanding and avoiding p-hacking in statistical analysis
-- **SDA15_Parameter Estimation and Fitting Distributions.ipynb** - Methods for parameter estimation and distribution fitting
-- **SDA18_Bootstrapping and Monte Carlo Sampling in Statistics.ipynb** - Resampling methods and Monte Carlo techniques
-- **SDA24_The Chi-squared Test.ipynb** - Chi-squared tests for hypothesis testing
-- **SDA25_Students t-distribution in Statistics.ipynb** - Student's t-distribution and its applications
-- **SDA28_Bayesian Inference- Overview.ipynb** - Introduction to Bayesian inference methods
-- **SDA31_Density Estimation with GMMs and Empirical Priors.ipynb** - Gaussian Mixture Models and empirical priors
-- **SDA32_Monte Carlo Sampling and Bootstrapping in Bayesian Inference.ipynb** - Advanced Bayesian computation methods
+- [PB05_The Birthday Problem in Probability](PB05_The%20Birthday%20Problem%20in%20Probability.ipynb)
+- [PB06_Quality Control, Non-destructive Inspection, and the Hypergeometric Distribution](PB06_Quality%20Control%2C%20Non-destructive%20Inspection%2C%20and%20the%20Hypergeometric%20Distribution.ipynb)
+- [PB07_The Binomial Distribution and the Multinomial Distribution](PB07_The%20Binomial%20Distribution%20and%20the%20Multinomial%20Distribution.ipynb)
+- [PB15_The Normal Distribution- The Limit of Binomial Distribution for Large n](PB15_The%20Normal%20Distribution-%20The%20Limit%20of%20Binomial%20Distribution%20for%20Large%20n.ipynb)
+- [PB16_The Standard Unit Normal and Probability Computation](PB16_The%20Standard%20Unit%20Normal%20and%20Probability%20Computation.ipynb)
+- [PB17_The Poisson Distribution- the Rare Event Limit of a Binomial Distribution](PB17_The%20Poisson%20Distribution-%20the%20Rare%20Event%20Limit%20of%20a%20Binomial%20Distribution.ipynb)
+
+#### Statistics and Data Analysis (SDA)
+
+- [SDA02_Population Statistics and Random Sampling](SDA02_Population%20Statistics%20and%20Random%20Sampling.ipynb)
+- [SDA06_Normal Approximation to Sample Mean](SDA06_Normal%20Approximation%20to%20Sample%20Mean.ipynb)
+- [SDA14_P-hacking](SDA14_P-hacking.ipynb)
+- [SDA15_Parameter Estimation and Fitting Distributions](SDA15_Parameter%20Estimation%20and%20Fitting%20Distributions.ipynb)
+- [SDA18_Bootstrapping and Monte Carlo Sampling in Statistics](SDA18_Bootstrapping%20and%20Monte%20Carlo%20Sampling%20in%20Statistics.ipynb)
+- [SDA24_The Chi-squared Test](SDA24_The%20Chi-squared%20Test.ipynb)
+- [SDA25_Students t-distribution in Statistics](SDA25_Students%20t-distribution%20in%20Statistics.ipynb)
+- [SDA28_Bayesian Inference- Overview](SDA28_Bayesian%20Inference-%20Overview.ipynb)
+- [SDA31_Density Estimation with GMMs and Empirical Priors](SDA31_Density%20Estimation%20with%20GMMs%20and%20Empirical%20Priors.ipynb)
+- [SDA32_Monte Carlo Sampling and Bootstrapping in Bayesian Inference](SDA32_Monte%20Carlo%20Sampling%20and%20Bootstrapping%20in%20Bayesian%20Inference.ipynb)
 
 ## 🚀 How to Use
 
-### Viewing the Materials
-
-1. **PDF Notes**: Click on any PDF file to view Dr. Brunton's lecture notes directly in GitHub's PDF viewer.
-
-2. **Jupyter Notebooks**: Click on any `.ipynb` file to view the rendered notebook with code, outputs, visualizations, and explanatory text. GitHub automatically renders Jupyter notebooks in a readable format.
-
-### Running the Notebooks on Github Directly or download and run locally
+1. **Notes**: open [Probability_Bootcamp_Notes.md](Probability_Bootcamp_Notes.md) or [Statistics_and_Data_Analysis_Notes.md](Statistics_and_Data_Analysis_Notes.md), use the episode index to jump to a topic, and watch the linked video alongside the notes. If you prefer to read offline, download the full PDFs from Google Drive.
+2. **Jupyter Notebooks**: click on any `.ipynb` file to view the rendered notebook on GitHub, or download it and run it locally with Jupyter (`pip install notebook numpy scipy matplotlib`).
 
 ## 📖 Learning Path
 
 For beginners, we recommend following this sequence:
 
-1. Start with the **Probability Bootcamp (PB)** notebooks to build foundational knowledge
-2. Progress to the **Statistics and Data Analysis (SDA)** notebooks
-3. Refer to the corresponding PDF lecture notes for additional theoretical context and handwritten explanations
+1. Start with the **Probability Bootcamp (PB)** notes and notebooks to build foundational knowledge
+2. Progress to the **Statistics and Data Analysis (SDA)** notes and notebooks
+3. Cross-reference each notebook with the notes for the same episode
 
 ## 💡 Tips for Learners
 
 - Run each notebook cell-by-cell to understand the flow of computations
 - Modify parameters in the code to see how results change
-- Cross-reference the PDF notes with the notebooks for deeper understanding
+- Cross-reference the notes with the notebooks for deeper understanding
 - Take notes on key concepts and formulas as you progress
 
 ## 📄 License
 
-These materials are provided for educational purposes. Please respect intellectual property rights and use these resources responsibly for personal learning and study.
+These materials are provided for educational purposes. All course content belongs to Dr. Steve Brunton. Please respect intellectual property rights and use these resources responsibly for personal learning and study.
 
 ## 🙏 Acknowledgments
 
-Special thanks to Dr. Brunton for creating these comprehensive course materials and making them available for learners worldwide.
+Special thanks to Dr. Brunton for creating these comprehensive courses and making them available for learners worldwide.
 
 ---
 
