@@ -1,5 +1,13 @@
 # Dr. Brunton's Probability & Statistics Course Materials
 
+<p align="center">
+  <a href="Probability_Bootcamp_Notes.md#ep-09-10"><img src="hand_notes_PB/PB_Note_Brunton_09_10.png" alt="Hand-written notes for Probability Bootcamp Episodes 9 &amp; 10: The Law of Total Probability / Bayes' Theorem" width="48%"></a>
+  &nbsp;
+  <a href="Statistics_and_Data_Analysis_Notes.md#ep-12-13"><img src="hand_notes_SDA/SDA_Note_Brunton_12_13.png" alt="Hand-written notes for Statistics and Data Analysis Episodes 12 &amp; 13: Hypothesis Testing" width="48%"></a>
+  <br>
+  <sub><em>✍️ Sample pages of the hand-written notes. Left: Probability Bootcamp, Episodes 9 &amp; 10 (Law of Total Probability / Bayes' Theorem). Right: Statistics and Data Analysis, Episodes 12 &amp; 13 (Hypothesis Testing). Click a page to see it alongside the video.</em></sub>
+</p>
+
 This repository contains my hand-written lecture notes and Python notebooks from Dr. Steve Brunton's YouTube courses **Probability Bootcamp** and **Introduction to Statistics and Data Analysis**. These materials are designed to help learners understand fundamental concepts in probability theory and statistical analysis through both theoretical explanations and practical Python implementations.
 
 ## 📚 Contents
